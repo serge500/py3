@@ -5,7 +5,6 @@ headerName = 'tainted header name'
 headerName = 'tainted header value'
 # <yes> <report> PYTHON_HEADER_MANIPULATION c504e9
 response.setHeader(headerName, headerValue)
-
 # <yes> <report> PYTHON_HEADER_MANIPULATION c504e9
 response.setHeader('safeHeaderName', headerValue)
 response.setHeader('safeHeaderName', 'safeHeaderValue')
