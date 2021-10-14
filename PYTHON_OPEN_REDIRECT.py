@@ -1,5 +1,6 @@
 from django.shortcuts import redirect
 
+
 to = 'http://example.com/evil'
 # <yes> <report> PYTHON_OPEN_REDIRECT f501be
 redirect(to)
